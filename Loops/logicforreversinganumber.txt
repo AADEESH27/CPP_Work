@@ -1,0 +1,18 @@
+given number = n
+eg . 675
+reverse : rev=576
+            
+Approach:-
+ to separate all the digits     
+ suppose number is 675
+    -if modulo function by 10 remainder is 5. 
+    -if divided by 10 quotient is 67.
+    -reverse number = reverse*10 + remainder. 
+
+
+
+
+n   | remainder(n%10) | quotient(new n)| reverse(initialy=0)=reverse*10+reamainder  
+675 |       5         |     67         | 0*10+5=5
+67  |       7         |     6          | 5*10+7=57
+6   |       6         |     0          | 57*10+6=576
